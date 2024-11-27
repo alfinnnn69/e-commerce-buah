@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E commerce buah</title>
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <!-- link css  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav>
+      <h1>BUAH SEGAR</h1>
+      <ul class="navlink">
+        <li><a href="#gambar">Beranda</a></li>
+        <li><a href="#buah">Buah</a></li>
+        <li><a href="#tentang">Tentang Kami</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+      <ul class="iconnav">
+        <li class="btnhamburger">
+          <input type="checkbox" name="" id="" />
+          <a href=""> <i class="fa-solid fa-bars"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- checkout -->
+    <div class="checkout">
+      <div class="checkout-buah">
+        <div class="pilih">
+          <label for="quantity">Berapa buah yang ingin di beli?</label>
+          <input type="number" id="quantity" min="1" value="1" />
+        </div>
+        <p>Harga : <span id="harga-per-barang">Rp 5.000</span></p>
+        <p>Total Harga : <span id="total-harga">Rp 5.000</span></p>
+        <button id="buy-button" onclick="window.location.href='index.html';">beli sekarang</button>
+      </div>
+    </div>
+
+    <!-- gambar -->
+    <div class="gambar" id="gambar"></div>
+
+    <!-- tentang -->
+
+    <div class="tentang-kami" id="tentang">
+      <div class="tentang-container">
+        <h2>Tentang Kami</h2>
+        <p>Selamat datang di E commerce buah segar dan berkualitas!</p>
+        <p>
+          Kami adalah penyedia buah-buahan segar yang berdedikasi untuk membawa kebaikan alam langsung ke tangan Anda. Dengan beragam pilihan buah berkualitas, kami memastikan setiap produk yang kami tawarkan dipetik langsung dari kebun
+          terbaik, menjaga rasa, kesegaran, dan nutrisi alaminya.
+        </p>
+        <p>Di tempat ini, kami percaya bahwa kesehatan dan kebahagiaan dimulai dari makanan yang baik. Itulah sebabnya kami berkomitmen untuk memberikan pelayanan terbaik, mulai dari pemilihan buah hingga pengiriman yang cepat dan aman.</p>
+        <p>Apapun kebutuhan Anda—buah untuk sehari-hari, bingkisan spesial, atau kebutuhan acara—kami siap melayani dengan produk terbaik dan senyuman.</p>
+        <p>Mari bersama kami, nikmati manisnya hidup dengan buah-buahan segar setiap hari!</p>
+      </div>
+    </div>
+    <!-- buah -->
+    <div class="buah" id="buah">
+      <div class="judul-buah"><h1>Buah Segar Berkualitas</h1></div>
+      <div class="buah-container">
+        <div class="buah-box">
+          <h1>Buah Mangga</h1>
+          <img src="buah.png" alt="" />
+          <button class="buah-submit">Pesan</button>
+        </div>
+        <div class="buah-box">
+          <h1>Buah Anggur</h1>
+          <img src="buah2.png" alt="" />
+          <button class="buah-submit">Pesan</button>
+        </div>
+        <div class="buah-box">
+          <h1>Buah Semangka</h1>
+          <img src="buah3.png" alt="" />
+          <button class="buah-submit">Pesan</button>
+        </div>
+        <div class="buah-box">
+          <h1>Buah Nanas</h1>
+          <img src="buah4.png" alt="" />
+          <button class="buah-submit">Pesan</button>
+        </div>
+        <div class="buah-box">
+          <h1>Buah Apel</h1>
+          <img src="buah5.png" alt="" />
+          <button class="buah-submit">Pesan</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p>Copyright ©2024 All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
